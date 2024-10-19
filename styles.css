@@ -1,0 +1,162 @@
+header {
+    display: block;
+    background-color: #8BB174;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    background-color: #B5CA8D;
+    margin-top: 100px;
+}
+
+.top {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #B5CA8D;
+    border-radius: 5px;
+}
+
+nav {
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    font: 600 24px 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+
+.hello {
+    position: relative;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: #B5CA8D;
+    padding-top: 20px;
+}
+
+.vid {
+    margin: 0 auto;
+}
+
+.latV {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+
+.subs {
+    margin-top: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.welc {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+
+.feed {
+    display: block;
+    left: 0;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 900px;
+    height: auto;
+}
+
+.new {
+    display: flex;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    max-width: 800px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #8BB174;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.new:hover .win11Ins{
+    font-size: 24px;
+}
+
+@media (max-width: 600px) {
+    li {
+        font-size: 18px;
+    }
+
+    .welc, .latV {
+        font-size: 24px;
+    }
+}
+
+.win11Ins {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat';
+    transition: 0.7s;
+}
+
+.win11IsnP {
+    font-size: 12px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+#Win11L {
+    height: 128px;
+    width: 128px;
+    padding-right: 10px;
+}
+
+.pls {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.donat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 256px;
+    width: 256px;
+}
+
+.alert {
+    width: 512px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
