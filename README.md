@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+This is my website, I guess?
+
 <!--
 **graniteyt/GraniteYT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
