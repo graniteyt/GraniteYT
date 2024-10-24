@@ -98,6 +98,7 @@ section {
     transition: all .3s ease-in-out;
     position: relative;
     padding-bottom: 25px;
+    font-weight: 500;
 }
 
 .program:hover {
@@ -126,3 +127,44 @@ section {
 }
 
 
+#audacity {
+    border-radius: 100px;
+}
+
+/* Example media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-menu li {
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    .program {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program img {
+        width: 80px;
+        height: 80px;
+    }
+}
